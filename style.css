@@ -90,3 +90,21 @@ body {
   font-size: 13px;
   margin-top: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  .card-component {
+    width: 80%;
+  }
+
+  .card-footer .followers h2,
+  .card-footer .likes h2,
+  .card-footer .photos h2 {
+    font-size: 18px;
+  }
+
+  .card-footer .followers p,
+  .card-footer .likes p,
+  .card-footer .photos p {
+    font-size: 11px;
+  }
+}
